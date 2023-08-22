@@ -1,0 +1,44 @@
+body{
+background-image: url(dell.jpg);
+}
+
+li{ 
+    display: inline-block;
+    list-style-type: none;
+
+
+}
+li a{
+     color:white;
+font-size: 20x;
+font-weight: bold;
+margin-right: 25px;
+}
+ div h2{
+    color: rgba(49, 65, 241, 0.992);
+    font-size: 22px;
+    font-weight: 800;
+    text-shadow: 3px 2px 1px rgb(3, 3, 12);
+    font-family: 'Courier New', Courier, monospace;
+}
+ button{
+    background-image: linear-gradient( rgb(172, 212, 212),rgb(71, 178, 225));
+ border: 2px solid rgb(81, 20, 236);
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient( rgb(172, 212, 212),rgb(71, 178, 225));
+     height:10;
+    width:1500;
+    border: 2px solid rgb(33, 167, 190);
+    border-radius: 5px;
+    
+}
